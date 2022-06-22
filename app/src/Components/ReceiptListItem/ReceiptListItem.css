@@ -1,0 +1,10 @@
+.receipt-list-item {
+    padding: 8px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.receipt-list-item-header {
+    font-size: 12pt;
+}

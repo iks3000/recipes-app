@@ -1,0 +1,81 @@
+.receipt-details {
+    width: 80%;
+    margin: auto;
+}
+
+.receipt-details .created-at {
+    color: gray;
+    font-size: small;
+}
+
+.loading-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.receipt-image-full > img {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.ingridients-and-steps-container {
+    flex-direction: row;
+}
+
+.ingridients-and-steps-container .ingridients {
+    display: inline-block;
+    width: 25%;
+}
+
+.ingridients-and-steps-container .ingridients ul {
+    list-style: none;
+    padding-inline-start: 0;
+    color: #444;
+    text-align: left;
+}
+
+.ingridients-and-steps-container .ingridients ul li {
+    padding-top: 12px;
+}
+
+.ingridients-and-steps-container .steps {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.ingridients-and-steps-container .steps .step {
+    padding: 16px 0;
+}
+
+.receipt-details-actionbar {
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    left: 0;
+}
+
+.edit-button {
+    position: absolute;
+    right: 0;
+}
+
+.react-tiny-popover-container {
+    padding: 12px;
+    background-color: white;
+    max-width: 150px;
+    border: 1px solid gray;
+}
+
+.has-popover {
+    text-decoration: dashed;
+    color: darkcyan;
+}

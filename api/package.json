@@ -1,0 +1,13 @@
+{
+  "name": "recipe-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:api": "UPLOAD_PATH=public/img json-server data.json --id uuid --port 3001 --middlewares node_modules/json-server-uploader/index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1",
+    "json-server-uploader": "^1.0.3"
+  }
+}

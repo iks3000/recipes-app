@@ -1,0 +1,22 @@
+.form-container {
+    margin-top: 24px;
+    flex-direction: column;
+}
+.form-row {
+    padding-top: 16px;
+
+    flex-direction: row;
+    align-items: stretch;
+}
+.form-column {
+    width: 30%;
+    display: inline-block;
+}
+
+.form-label {
+    padding-right: 10px;
+}
+
+.label-wrapper {
+    display: flex;
+}
